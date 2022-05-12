@@ -1,0 +1,19 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the age of you and your brother");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        boolean x=true;
+        if(a<25 && b<25)
+        {
+            System.out.println(x);
+
+        }
+        else
+        {
+            System.out.println(!x);
+        }
+    }
+    }
